@@ -1,0 +1,33 @@
+{
+  "name": "zone",
+  "version": "1.0.0",
+  "description": "my personal zone with eassy and photo",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/f1084/zone.git"
+  },
+  "keywords": [
+    "node",
+    "koa"
+  ],
+  "author": "f1084",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/f1084/zone/issues"
+  },
+  "homepage": "https://github.com/f1084/zone#readme",
+  "dependencies": {
+    "co-views": "^2.1.0",
+    "ejs": "^2.5.7",
+    "koa": "^2.3.0",
+    "koa-route": "^3.2.0",
+    "koa-static-server": "^1.3.2",
+    "koa-views": "^6.0.2",
+    "mysql": "^2.14.1"
+  }
+}
